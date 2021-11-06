@@ -43,7 +43,7 @@ public class PrincipalSinBloqueo {
      */
     public static void main(String[] args) throws InterruptedException, Exception {
         
-        System.out.println("Ingrese la cantidad de Transacciones concurrentes");
+        System.out.println("Ingrese la cantidad de Transacciones concurrentes (sinbloqueo)");
         int threadsCount = Integer.parseInt(SCANNER.nextLine());
         Thread[] threads = new Thread[threadsCount];
         //Inserta los dos registros de persona (persona1 y persona2) para operar las transacciones
